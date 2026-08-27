@@ -1,10 +1,11 @@
-# Foco Estudante V4 — Brasília e Entorno
+# Foco Estudante V5 — Brasília e Entorno
 
-Versão pública/aluno com foco regional.
+Versão pública/aluno com foco regional, visual reorganizado e tema premium em amarelo.
 
+- fundo amarelo e interface reorganizada
 - 15 trilhas de carreira
-- 110 aulas de teoria/revisão
-- 232 questões comentadas no banco
+- 116 aulas com teoria estruturada, tópicos essenciais, revisão e orientação de prova
+- 259 questões comentadas no banco
 - 12 simulados funcionais
 - 13 regiões/municípios prioritários
 - fontes oficiais para LODF, LC 840, RIDE, PMDF, CBMDF, PCDF, CTB, LDB, SUS, TJDFT e MPDFT

@@ -81,3 +81,129 @@ footer{background:#030914;border-color:rgba(120,158,210,.12)}.footer-inner{color
 /* ===== V4 — CONTEÚDO LOCAL DF + ENTORNO ===== */
 .regional-callout{margin:-8px 0 22px;padding:18px 20px;display:flex;gap:12px;align-items:flex-start;background:linear-gradient(135deg,rgba(255,185,44,.08),rgba(29,126,255,.08))}.regional-callout strong{color:#ffd469;white-space:nowrap}.regional-callout p{margin:0;color:#91a3bb}.local-state{min-height:155px}.local-state p{max-width:420px;line-height:1.6}.library-summary{display:flex;gap:10px;flex-wrap:wrap;margin:-5px 0 20px}.library-summary span{padding:9px 12px;border:1px solid rgba(110,158,225,.15);background:#08172a;border-radius:12px;color:#8195b2;font-size:11px}.library-summary b{color:#fff;font-size:14px;margin-right:4px}.exercise-filters{grid-template-columns:1.2fr 1.2fr .7fr}.study-block{margin:18px 0;padding:18px 20px;border:1px solid rgba(111,157,219,.14);border-radius:15px;background:linear-gradient(145deg,#08182d,#071426)}.study-block h4{margin:0 0 10px;color:#eaf2ff}.study-block ul{margin:0;padding-left:20px;color:#9fb0c8;line-height:1.7}.review-box{margin:16px 0;padding:15px 17px;border-radius:14px;background:rgba(255,183,38,.07);border:1px solid rgba(255,187,46,.13);color:#aebad0}.review-box strong{color:#ffd26a}.review-box p{margin:6px 0 0}.source-note{margin-top:18px;padding:14px 16px;border-radius:13px;background:rgba(25,132,255,.08);border:1px solid rgba(52,143,255,.14);color:#94a9c6;font-size:12px}.source-note strong{color:#75c5ff}.source-note a{color:#58bfff;text-decoration:none}.source-note a:hover{text-decoration:underline}.source-link{display:inline-flex;text-decoration:none;margin-top:8px}.source-card{display:flex;flex-direction:column}.source-card .source-link{margin-top:auto}.guide-card{min-height:215px}.plan-card ol{padding-left:18px;color:#93a6c0;line-height:1.65;font-size:12px;margin:12px 0 0}.sim-modal{max-width:920px}.sim-modal .lesson-body{max-height:72vh;overflow:auto}.hero-copy strong{color:#fff}.hero-trust span:first-child:after{content:' DF + Entorno';color:#ffd15d;font-weight:800}.lesson-card .meta{padding-right:84px}
 @media(max-width:860px){.exercise-filters{grid-template-columns:1fr}.regional-callout{flex-direction:column}.lesson-card .meta{padding-right:0}}
+
+/* ===== V5 — FUNDO AMARELO + ORGANIZAÇÃO REFINADA ===== */
+:root{
+  --bg:#f8e7a6;
+  --surface:#fff8e6;
+  --surface-2:#fff2ca;
+  --ink:#22160a;
+  --text:#4c3418;
+  --muted:#7b6242;
+  --line:#eddba8;
+  --blue:#1f56cf;
+  --blue-2:#3572f0;
+  --cyan:#1e9ec9;
+  --green:#1d8c63;
+  --amber:#d89a0a;
+  --nav:#15110d;
+  --nav-2:#241a12;
+  --shadow:0 18px 50px rgba(74,45,7,.12);
+  --shadow-lg:0 28px 80px rgba(56,35,6,.18);
+}
+body{
+  background:
+    radial-gradient(circle at top right, rgba(255,208,88,.55), transparent 24%),
+    radial-gradient(circle at bottom left, rgba(255,228,164,.65), transparent 28%),
+    linear-gradient(180deg,#f8e7a6 0%, #f8df88 40%, #f7e4af 100%);
+  color:var(--text);
+}
+.ambient-one{background:#ffd457;opacity:.2}
+.ambient-two{background:#fff2bb;opacity:.24}
+.topbar{background:rgba(255,248,226,.78);border-bottom:1px solid rgba(196,153,56,.12)}
+.brand-copy strong,.footer-brand strong{color:#22160a}
+.brand-copy strong b,.footer-brand strong b{color:#d18a00}
+.brand-copy strong span,.footer-brand strong span{color:#1660dd}
+.brand-copy small{color:#8a7354}
+.btn.top-favorite{background:#fff4d6;border-color:#ebd49e;color:#5b472c}
+.btn.top-favorite:hover{background:#fff9ea;color:#1f56cf}
+.layout{gap:28px}
+.sidebar{background:linear-gradient(180deg,#1c140d 0%,#23170d 54%,#130d08 100%);box-shadow:0 24px 55px rgba(49,31,6,.3)}
+.nav-item.active{background:linear-gradient(90deg,rgba(252,193,44,.22),rgba(255,255,255,.08))}
+.nav-item.active:before{background:linear-gradient(#ffd250,#ffb100);box-shadow:0 0 14px rgba(255,210,80,.9)}
+.nav-item.active .nav-icon{background:linear-gradient(145deg,#e8ad18,#c38308);box-shadow:0 6px 16px rgba(219,149,9,.35)}
+.sidebar-card,.premium-card{background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.025));border-color:rgba(255,216,126,.11)}
+.progress{background:#3a2b19}
+.progress i{background:linear-gradient(90deg,#ffd257,#ffba1c)}
+.progress-head strong,.premium-card strong{color:#fff9ef}
+.progress-head small,.premium-card p,.sidebar-foot{color:#bfa98b}
+.premium-card small{color:#f5c96e}
+.premium-card button{border-color:rgba(255,214,108,.32);background:linear-gradient(135deg,rgba(255,193,43,.16),rgba(255,149,0,.07));color:#ffe082}
+.page-head h1,.section-head h2,.career-card h3,.lesson-card h3,.mini-card h3,.question h4,.lesson-modal h2,.lesson-body h3,.quiz-toolbar strong,.notice strong,.empty strong{color:#201306}
+.page-head p,.section-head p,.career-card p,.lesson-card p,.mini-card p,.notice p,.lesson-body,.topic-list ul{color:#6c5437}
+.eyebrow{color:#c48100}
+.eyebrow.light{color:#ffe094}
+.eyebrow.light i{background:#ffd569}
+.link-btn{color:#7d5606}
+.link-btn:hover{color:#1f56cf}
+.hero{
+  min-height:540px;
+  background:
+    linear-gradient(90deg,rgba(28,20,13,.93) 0%,rgba(33,23,12,.88) 41%,rgba(35,23,9,.35) 67%,rgba(33,23,12,.08) 100%),
+    radial-gradient(circle at left top, rgba(255,207,74,.25), transparent 28%),
+    url('assets/hero-graduacao.png') right center/cover no-repeat;
+  border:1px solid rgba(165,116,13,.18);
+  box-shadow:0 30px 90px rgba(78,48,4,.25);
+}
+.hero:before{border-color:rgba(255,227,148,.14);box-shadow:0 0 0 80px rgba(255,212,93,.03),0 0 0 160px rgba(255,244,210,.02)}
+.hero h1{color:#fff8e9}
+.hero h1 span{background:linear-gradient(90deg,#ffd34d,#ffb52c,#4f8df7);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-copy>p{color:#eedfc3;max-width:700px}
+.hero-copy strong{color:#ffd968}
+.hero-primary{background:linear-gradient(135deg,#ffd452,#ffb40f);color:#241604;box-shadow:0 14px 30px rgba(255,178,21,.3)}
+.hero-secondary{border-color:rgba(255,224,142,.18);background:rgba(255,255,255,.06);color:#fff6df}
+.hero-trust{color:#e9d8b5}
+.hero-trust b{background:rgba(255,211,91,.18);color:#ffd970}
+.hero-panel{background:linear-gradient(145deg,rgba(47,31,13,.8),rgba(25,17,10,.8));border-color:rgba(255,222,137,.14)}
+.panel-top,.panel-score small,.panel-score p,.hero-stats small{color:#d9c6a2}
+.panel-score strong,.hero-stats strong{color:#fff6e3}
+.hero-stats>div{background:rgba(255,255,255,.05);border-color:rgba(255,220,132,.08)}
+.hero-stats .stat-icon{color:#f0c45a}
+.highlights-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:20px 0 8px}
+.highlight-card{background:linear-gradient(145deg,rgba(255,250,238,.88),rgba(255,244,216,.98));border:1px solid rgba(210,169,74,.18);border-radius:22px;padding:18px 18px 16px;box-shadow:0 14px 32px rgba(86,58,7,.08)}
+.highlight-card strong{display:block;font-size:18px;line-height:1.2;color:#231507;margin:10px 0 8px}
+.highlight-card p{margin:0;color:#705639;font-size:13px;line-height:1.55}
+.mini-pill{display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;background:#fff1be;color:#9b6500;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.career-card,.lesson-card,.state-card,.mini-card,.card,.quiz-shell,.notice,.compact-table,.study-card{background:linear-gradient(145deg,rgba(255,250,239,.9),rgba(255,245,219,.98));border-color:rgba(214,171,75,.18);box-shadow:0 16px 40px rgba(84,53,6,.08)}
+.career-card:hover,.lesson-card:hover,.mini-card:hover{border-color:rgba(210,147,9,.35);box-shadow:0 20px 46px rgba(84,53,6,.12)}
+.career-icon{background:linear-gradient(145deg,#fff3c7,#ffe299);border-color:rgba(228,172,31,.22);box-shadow:inset 0 0 18px rgba(255,198,69,.18)}
+.card-kicker{color:#9a6906}
+.career-meta span,.library-summary span,.tag{background:#fff7e3;border-color:#efd9a1;color:#7e633e}
+.tag.blue{background:#edf4ff;border-color:#cfdfff;color:#1c5ad8}
+.tag.green{background:#eefaf4;border-color:#c8e8d7;color:#177c58}
+.tag.amber{background:#fff5d7;border-color:#f3de94;color:#b57900}
+.btn.ghost{background:#fff7e1;border:1px solid #ecd291;color:#6b522f}
+.btn.ghost:hover{background:linear-gradient(135deg,#ffce45,#f0a91a);color:#221406;border-color:transparent}
+.btn.primary{background:linear-gradient(135deg,#1f64e9,#1953bd);color:#fff;box-shadow:0 12px 24px rgba(31,100,233,.18)}
+.favorite{background:#fff8e7;border-color:#efd79b;color:#a1814f}
+.favorite:hover,.favorite.on{background:rgba(255,203,72,.14);color:#d08a00;border-color:#e5b54d}
+.searchbox input,.filters select{background:#fff9ea;border-color:#e9d39a;color:#533d1e}
+.searchbox input::placeholder{color:#9a8364}
+.quiz-toolbar{background:#fff8e6;border-color:#ecd9aa}
+.option{background:#fff9ed;border-color:#ead7a3;color:#61492a}
+.option:hover{background:#fff3d2;border-color:#dfb24d}
+.option:has(input:checked){background:#eef4ff;border-color:#2a69ea}
+.answer-note,.result-box{background:#eef9f3;color:#137451;border-color:#c8e8d7}
+.answer-note.error{background:#fff0ef;color:#c94c4c;border-color:#f0c0c0}
+.result-box{background:linear-gradient(135deg,#edf5ff,#fff5da);color:#2250b5;border-color:#d2ddff}
+.notice-icon{background:#fff2c3;color:#aa7000}
+.regional-callout{background:linear-gradient(135deg,rgba(255,214,104,.24),rgba(255,248,219,.78));border-color:rgba(220,169,50,.15)}
+.regional-callout strong{color:#855400}
+.regional-callout p,.local-state p{color:#6d5436}
+.source-note{background:#fff9ea;border-color:#f1d89d;color:#755d3e}
+.source-note strong{color:#1f56cf}
+.callout{background:#fff5da;color:#77592f;border-left:4px solid #d89a0a}
+.review-box{background:rgba(255,207,77,.15);border-color:rgba(214,157,18,.2);color:#6d5437}
+.review-box strong{color:#9d6300}
+.topic-list{background:#fffaf0;border-color:#efdcb0}
+.empty{border-color:#ecd39a;background:rgba(255,252,244,.72)}
+footer{background:#fff1bf;border-top:1px solid rgba(204,160,55,.18)}
+.footer-inner{color:#745c39}
+.footer-brand small{color:#8d7147}
+@media(max-width:1100px){
+  .highlights-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:860px){
+  .highlights-strip{grid-template-columns:1fr}
+  .hero-copy{background:linear-gradient(90deg,rgba(28,20,13,.92),rgba(33,23,12,.58))}
+}
