@@ -1,19 +1,13 @@
-# Foco Estudante — V3 Premium (Área do Aluno)
+# Foco Estudante V4 — Brasília e Entorno
 
-Atualização focada na experiência pública/assinante.
+Versão pública/aluno com foco regional.
 
-## Mudanças principais
-- Visual escuro premium em azul-marinho, dourado e azul.
-- Hero com imagem temática de formação.
-- Identidade FOCO (dourado) + ESTUDANTE (azul).
-- Área Admin removida desta versão pública.
-- 14 carreiras.
-- 28 aulas com resumos e questionários.
-- Banco com 30 questões de treino.
-- 12 simulados demonstrativos.
-- 9 cadernos-modelo na área de provas.
-- 14 linhas em “O que mais caiu”.
-- Favoritos, progresso e trilha continuam salvos no navegador.
-- Card de assinatura Premium preparado para futura ativação.
+- 15 trilhas de carreira
+- 110 aulas de teoria/revisão
+- 232 questões comentadas no banco
+- 12 simulados funcionais
+- 13 regiões/municípios prioritários
+- fontes oficiais para LODF, LC 840, RIDE, PMDF, CBMDF, PCDF, CTB, LDB, SUS, TJDFT e MPDFT
 
-Abra index.html ou publique estes arquivos no GitHub Pages.
+## Observação importante
+O conteúdo é uma base ampla de preparação para DF e Entorno. Editais mudam; antes de uma prova, compare a trilha com o conteúdo programático do edital e confira a redação atual das leis nas fontes oficiais listadas dentro da plataforma.
