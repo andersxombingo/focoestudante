@@ -1,18 +1,19 @@
-# FocoEstudante — V2 Premium
+# Foco Estudante — V3 Premium (Área do Aluno)
 
-Atualização visual completa baseada na V1.
+Atualização focada na experiência pública/assinante.
 
-## O que mudou
-- Nova identidade visual premium
-- Novo cabeçalho, marca e menu lateral
-- Dashboard inicial completamente redesenhado
-- Hero principal com painel de métricas
-- Novos cards de carreiras, aulas, estados e simulados
-- Biblioteca/filtros com nova aparência
-- Exercícios e questionários redesenhados
-- Painel Admin modernizado
-- Modal de aulas renovado
-- Melhor experiência responsiva em celular e tablet
-- Todas as funções existentes da V1 preservadas
+## Mudanças principais
+- Visual escuro premium em azul-marinho, dourado e azul.
+- Hero com imagem temática de formação.
+- Identidade FOCO (dourado) + ESTUDANTE (azul).
+- Área Admin removida desta versão pública.
+- 14 carreiras.
+- 28 aulas com resumos e questionários.
+- Banco com 30 questões de treino.
+- 12 simulados demonstrativos.
+- 9 cadernos-modelo na área de provas.
+- 14 linhas em “O que mais caiu”.
+- Favoritos, progresso e trilha continuam salvos no navegador.
+- Card de assinatura Premium preparado para futura ativação.
 
-Abra `index.html` no navegador para testar localmente.
+Abra index.html ou publique estes arquivos no GitHub Pages.
