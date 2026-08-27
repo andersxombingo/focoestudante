@@ -1,29 +1,18 @@
-# FOCOESTUDANTE — V1
+# FocoEstudante — V2 Premium
 
-**Seu caminho para a aprovação.**
+Atualização visual completa baseada na V1.
 
-Primeira versão do site.
+## O que mudou
+- Nova identidade visual premium
+- Novo cabeçalho, marca e menu lateral
+- Dashboard inicial completamente redesenhado
+- Hero principal com painel de métricas
+- Novos cards de carreiras, aulas, estados e simulados
+- Biblioteca/filtros com nova aparência
+- Exercícios e questionários redesenhados
+- Painel Admin modernizado
+- Modal de aulas renovado
+- Melhor experiência responsiva em celular e tablet
+- Todas as funções existentes da V1 preservadas
 
-## Já funciona
-- Home responsiva
-- PM, PC, PF, Polícia Penal, Enfermagem e Administrativo
-- 26 estados + Distrito Federal
-- Apostilas/aulas
-- Questionário abaixo da aula
-- Respostas comentadas
-- Exercícios com gabarito no final
-- Simulados e provas (estrutura)
-- O que caiu por região
-- Favoritos e progresso no navegador
-- Admin local de teste
-- Alto contraste para evitar texto invisível
-
-## Como subir no GitHub
-1. Extraia o ZIP.
-2. Na tela **Upload files**, arraste os arquivos `index.html`, `styles.css`, `data.js`, `app.js` e `README.md`.
-3. Clique em **Commit changes**.
-
-## GitHub Pages
-Settings > Pages > Deploy from a branch > main > /(root) > Save.
-
-**Obs.:** dados de provas e “o que caiu” são demonstrativos nesta V1. A base real entra na próxima etapa com fontes oficiais.
+Abra `index.html` no navegador para testar localmente.
