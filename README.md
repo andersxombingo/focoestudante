@@ -1,21 +1,16 @@
-# Foco Estudante V8 — GitHub
+# Foco Estudante V9
 
-Versão completa em arquivos separados, pronta para publicar como site estático no GitHub Pages.
+Projeto estático pronto para GitHub Pages.
 
-## Arquivos
-- `index.html` — estrutura da interface
-- `styles.css` — tema amarelo/dourado e layout responsivo
-- `app.js` — navegação, progresso, favoritos, aulas, exercícios e simulados
-- `data.js` — aulas, leituras, questões, trilhas e fontes
-- `assets/hero-graduacao.png` — foto de fundo do início
-- `.nojekyll` — compatibilidade com GitHub Pages
+## Atualizações
+- Banner inicial com contraste corrigido sem esconder a foto.
+- Nova área **O que caiu na prova**.
+- PRF Administrativo: matriz da última prova FUNCAB/2014.
+- PCDF Agente: matriz da prova Cebraspe/2021 (120 itens C/E).
+- PCGO Agente: matriz da prova AOCP/2022 (80 questões).
+- Simulados-espelho com a distribuição de matérias da última prova.
+- Questões internas tratadas corretamente como autorais no estilo da última prova.
+- PCDF: Regimento Interno vigente pela Resolução nº 8/2025.
+- Licitações: Lei nº 14.133/2021 tratada como referência geral vigente.
 
-## Alterações desta versão
-- removido integralmente o painel “FOCO ATUAL / 3 trilhas / 179 / 537 / DF + GO” da foto inicial;
-- foto de fundo permanece visível;
-- fundos azul-marinho/preto trocados por amarelo, creme e dourado;
-- corrigido o JavaScript para não procurar os contadores removidos;
-- mantido o conteúdo de estudo da V6/V7.
-
-## Publicação
-Envie todo o conteúdo desta pasta para a raiz do repositório usado no GitHub Pages. O arquivo inicial é `index.html`.
+Suba todos os arquivos e a pasta `assets` para o repositório.
