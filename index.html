@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#e3b329">
   <meta name="description" content="Foco Estudante — preparação pessoal para PRF Administrativo, PCDF e PCGO.">
   <title>Foco Estudante</title>
-  <link rel="stylesheet" href="styles.css?v=12.2">
+  <link rel="stylesheet" href="styles.css?v=13">
 </head>
 <body>
 <header class="topbar">
@@ -105,7 +105,23 @@
     </section>
 
     <section class="view" id="view-simulations">
-      <div class="page-head"><div><span class="kicker">SIMULADOS</span><h1>Treino no formato da banca</h1><p>Simulados estratégicos sem repetição forçada: tamanho reduzido, mas com distribuição aproximada da última prova.</p></div></div>
+      <div class="page-head"><div><span class="kicker">SIMULADOS</span><h1>PRF Administrativo por perfil de banca</h1><p>O mesmo conteúdo programático treinado de formas diferentes. A ideia é aprender a matéria e também aprender a maneira como cada banca transforma a matéria em questão.</p></div></div>
+      <section class="bank-lab">
+        <div class="bank-lab-head"><span class="kicker">COMO A COBRANÇA MUDA</span><h2>Cebraspe × Quadrix</h2><p>Os simulados abaixo usam questões autorais e preservam o conteúdo da trilha PRF Administrativo. O formato é inspirado nas características publicadas pelas próprias bancas — não é uma previsão de qual banca fará um futuro concurso da PRF.</p></div>
+        <div class="bank-compare-grid">
+          <article class="bank-compare-card cebraspe-card">
+            <div class="bank-name"><span>CEBRASPE</span><b>Certo / Errado</b></div>
+            <ul><li>Um item exige julgamento integral: uma palavra pode tornar toda a assertiva errada.</li><li>Casos hipotéticos e comandos agrupados favorecem interpretação + aplicação da regra.</li><li>Neste treino: <strong>+1 acerto, −1 erro e 0 em branco</strong>, para trabalhar estratégia de risco.</li><li>Ênfase em exceções, limites, competência, consequência jurídica e precisão conceitual.</li></ul>
+            <a href="https://cdn.cebraspe.org.br/concursos/ANSA_26/arquivos/3969A00660D0B4D434998AC83CDA12E570D28CC2D67C47C6FDF6C58697C33FB1.html" target="_blank" rel="noopener">Referência de formato Cebraspe ↗</a>
+          </article>
+          <article class="bank-compare-card quadrix-card">
+            <div class="bank-name"><span>QUADRIX</span><b>5 alternativas</b></div>
+            <ul><li>A banca informa que pode usar C/E ou múltipla escolha; aqui usamos 5 alternativas para diferenciar o treino.</li><li>Contextos reais ou hipotéticos e <strong>distratores plausíveis</strong>, exigindo comparar todas as opções.</li><li>Neste treino: uma alternativa correta e quatro alternativas próximas, sem pontuação negativa.</li><li>Ênfase em identificação da regra correta, aplicação prática e diferença entre conceitos semelhantes.</li></ul>
+            <a href="https://ajuda.quadrix.org.br/pt-BR/articles/8185616-informacoes-sobre-a-prova-objetiva" target="_blank" rel="noopener">Referência de formato Quadrix ↗</a>
+          </article>
+        </div>
+      </section>
+      <div class="section-title sim-section-title"><div><h2>Escolha o estilo de prova</h2><p>Os dois primeiros simulados cobrem somente PRF Administrativo, com a mesma matriz de matérias e cobrança adaptada à banca.</p></div></div>
       <div class="sim-grid" id="simulationCards"></div>
       <div class="session hidden" id="simSession">
         <div class="session-main"><div class="sim-header"><div><span class="kicker" id="simBoard"></span><h2 id="simTitle"></h2></div><div class="timer" id="simTimer">00:00</div></div><div id="simQuestion"></div></div>
@@ -148,7 +164,7 @@
 
 <div class="toast" id="toast" role="status"></div>
 <footer class="footer"><span>Foco Estudante V12.1 • uso pessoal</span><span>PRF Administrativo • PCDF • PCGO</span><span>Atualizado em 29/08/2026</span></footer>
-<script src="data.js?v=12.2"></script>
-<script src="app.js?v=12.2"></script>
+<script src="data.js?v=13"></script>
+<script src="app.js?v=13"></script>
 </body>
 </html>

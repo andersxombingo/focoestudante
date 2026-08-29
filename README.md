@@ -1,25 +1,15 @@
-# Foco Estudante V12.1 — Profissional
+# Foco Estudante V13 — Bancas
 
-Versão reconstruída para uso pessoal e GitHub Pages.
+Atualização completa baseada na V12.2.
 
-## O que mudou
-- Navegação reduzida a 6 áreas úteis.
-- Página inicial limpa, sem banners estatísticos ou áreas comerciais.
-- Banco principal filtra questões com distratores excessivamente genéricos.
-- Questões exibidas uma por vez, com contexto, justificativa escrita e resolução profunda.
-- Simulados estratégicos sem repetição forçada e sem correção durante a prova.
-- Revisão reúne Caderno de Erros, favoritos e próximas aulas.
-- Edital, raio-X da última prova e fontes ficaram na mesma área.
-- Tema claro em creme/amarelo/dourado, com contraste de leitura.
+## Novos simulados PRF Administrativo
+- **Cebraspe:** 60 itens Certo/Errado, casos contextualizados, pontuação de treino +1/−1/0.
+- **Quadrix:** 60 questões de 5 alternativas, casos contextualizados e distratores plausíveis.
+- Ambos usam a mesma matriz de matérias do PRF Administrativo para permitir comparação direta da forma de cobrança.
 
-## Publicação
-Envie **todos os arquivos** deste projeto ao repositório GitHub. O projeto é estático e compatível com GitHub Pages.
+## Responsabilidade metodológica
+- O Cebraspe utiliza provas de itens C/E em diversos certames; o critério de pontuação depende do edital. Neste treino adotamos +1/−1/0, formato usado em certames recentes da banca.
+- A Quadrix informa oficialmente que pode aplicar tanto C/E quanto múltipla escolha e que usa contextos reais/hipotéticos. Neste treino adotamos múltipla escolha com 5 alternativas para diferenciar a habilidade treinada.
+- As questões são autorais. O site não afirma que Cebraspe ou Quadrix será a banca de um futuro concurso PRF Administrativo.
 
-## Hotfix V12.1
-- Corrigido grid das alternativas: rádio + letra + texto agora ocupam três colunas corretas.
-- Eliminado o problema de texto quebrando palavra por palavra no celular.
-- Ajustados espaçamento e legibilidade das alternativas em telas pequenas.
-
-
-## V12.2
-Correção estrutural das alternativas: agora o HTML possui apenas dois blocos (rádio + conteúdo), evitando a quebra palavra por palavra mesmo com CSS antigo em cache.
+Suba todos os arquivos para o GitHub, incluindo `assets/`.
