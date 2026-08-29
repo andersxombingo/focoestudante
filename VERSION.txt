@@ -1,3 +1,1 @@
-Foco Estudante V12.1 — Profissional
-Correção crítica: layout das alternativas em desktop/mobile
-Data: 29/08/2026
+Foco Estudante V12.2 — correção definitiva das alternativas mobile

@@ -19,3 +19,7 @@ Envie **todos os arquivos** deste projeto ao repositório GitHub. O projeto é e
 - Corrigido grid das alternativas: rádio + letra + texto agora ocupam três colunas corretas.
 - Eliminado o problema de texto quebrando palavra por palavra no celular.
 - Ajustados espaçamento e legibilidade das alternativas em telas pequenas.
+
+
+## V12.2
+Correção estrutural das alternativas: agora o HTML possui apenas dois blocos (rádio + conteúdo), evitando a quebra palavra por palavra mesmo com CSS antigo em cache.
