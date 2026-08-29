@@ -1,17 +1,16 @@
-# Foco Estudante V11 — Prova Contextualizada
+# Foco Estudante V12 — Profissional
 
-Projeto completo para GitHub Pages.
+Versão reconstruída para uso pessoal e GitHub Pages.
 
-## Correção principal da V11
-A versão anterior ainda tinha questões curtas demais para chamar de “espelho da prova”. A V11 altera isso:
+## O que mudou
+- Navegação reduzida a 6 áreas úteis.
+- Página inicial limpa, sem banners estatísticos ou áreas comerciais.
+- Banco principal filtra questões com distratores excessivamente genéricos.
+- Questões exibidas uma por vez, com contexto, justificativa escrita e resolução profunda.
+- Simulados estratégicos sem repetição forçada e sem correção durante a prova.
+- Revisão reúne Caderno de Erros, favoritos e próximas aulas.
+- Edital, raio-X da última prova e fontes ficaram na mesma área.
+- Tema claro em creme/amarelo/dourado, com contraste de leitura.
 
-- Cada questão ganhou **texto associado, situação hipotética ou caso prático**.
-- PRF Administrativo/FUNCAB e PCGO/AOCP aparecem com **5 alternativas (A–E)** nos simulados.
-- PCDF/Cebraspe aparece em **Certo/Errado**, depois de contexto e comando próprio da banca.
-- Campo obrigatório de estudo: **justifique seu raciocínio antes de ver o gabarito**.
-- Correção profunda: conceito, alternativa por alternativa e **pegadinha da banca**.
-- Questões autorais: reproduzem forma, temas e lógica de cobrança, mas não copiam integralmente cadernos oficiais.
-- Referências e legislação continuam atualizadas até 2026.
-- Arquivos usam `?v=11` para evitar que o GitHub Pages/navegador mostre JavaScript ou CSS antigo em cache.
-
-Suba **todos os arquivos** e a pasta `assets` ao GitHub.
+## Publicação
+Envie **todos os arquivos** deste projeto ao repositório GitHub. O projeto é estático e compatível com GitHub Pages.
