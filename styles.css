@@ -58,7 +58,7 @@ body{background:radial-gradient(circle at 80% 0,rgba(32,78,188,.14),transparent 
 .sidebar-card{border:1px solid rgba(132,165,211,.12);background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.018));border-radius:17px;padding:14px}
 .page-head h1,.section-head h2,.career-card h3,.lesson-card h3,.mini-card h3,.question h4,.lesson-modal h2,.lesson-body h3,.quiz-toolbar strong,.notice strong,.empty strong{color:var(--ink)}
 .page-head p,.section-head p,.career-card p,.lesson-card p,.mini-card p,.notice p{color:var(--muted)}
-.hero{min-height:545px;grid-template-columns:minmax(0,1.15fr) minmax(330px,.85fr);background:linear-gradient(90deg,rgba(3,9,20,.97) 0%,rgba(3,9,20,.90) 44%,rgba(3,9,20,.30) 72%,rgba(3,9,20,.1) 100%),url('assets/hero-graduacao.png') right center/cover no-repeat;border:1px solid rgba(94,145,222,.17);box-shadow:0 34px 100px rgba(0,0,0,.5),inset 0 0 80px rgba(17,77,184,.12)}
+.hero{min-height:545px;grid-template-columns:minmax(0,1.15fr) minmax(330px,.85fr);background:linear-gradient(90deg,rgba(255,247,205,.36) 0%,rgba(255,239,164,.18) 42%,rgba(255,220,84,.04) 72%,rgba(255,220,84,0) 100%),url('assets/hero-graduacao.png') right center/cover no-repeat;border:1px solid rgba(94,145,222,.17);box-shadow:0 34px 100px rgba(0,0,0,.5),inset 0 0 80px rgba(17,77,184,.12)}
 .hero:before{background:radial-gradient(circle,rgba(31,143,255,.16),transparent 65%);border-color:rgba(104,160,245,.12)}.hero h1 span{background:linear-gradient(90deg,#20bfff,#3779ff,#a451ff);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}.hero-copy>p{color:#a9b7ca}.hero-primary{background:linear-gradient(135deg,#ffc83d,#ff9c18);color:#09111f;box-shadow:0 16px 32px rgba(255,166,24,.23)}.hero-primary:hover{background:linear-gradient(135deg,#ffd66a,#ffad35)}.hero-secondary{border-color:rgba(105,166,255,.22);background:rgba(5,17,36,.58);color:#dce9ff}.hero-panel{align-self:end;margin:42px 42px 42px 10px;background:linear-gradient(145deg,rgba(8,23,48,.86),rgba(5,15,31,.62));border-color:rgba(113,165,236,.18);box-shadow:0 25px 60px rgba(0,0,0,.35);backdrop-filter:blur(15px)}
 .panel-score{border-color:rgba(117,157,207,.13)}.hero-stats>div{background:rgba(4,12,26,.64);border-color:rgba(123,162,214,.12)}.hero-stats strong{color:#fff}.hero-stats small{color:#7588a5}
 .eyebrow{color:#31b8ff}.eyebrow.light{color:#68c7ff}.link-btn{color:#58bfff}.link-btn:hover{color:#8bd8ff}
@@ -84,3 +84,89 @@ footer{background:#030914;border-color:rgba(120,158,210,.12)}.footer-inner{color
 
 /* V5 — estudo pessoal DF + GO */
 .personal-hero{min-height:520px}.update-notice{margin:24px 0 8px}.reading-box,.activity-box{margin:18px 0;padding:18px;border:1px solid rgba(83,180,255,.2);background:rgba(10,34,57,.62);border-radius:18px}.reading-box h4,.activity-box h4,.theory-block h4{margin:0 0 10px}.reading-box p,.activity-box li,.theory-block p{line-height:1.72;color:var(--muted)}.activity-box ol{margin:8px 0 0;padding-left:22px}.inline-source{display:inline-flex;margin-top:10px;color:#9bd8ff;text-decoration:none;font-weight:800}.callout.warning{border-color:rgba(255,181,71,.35);background:rgba(255,181,71,.08)}.lesson-lead{font-size:1.05rem;line-height:1.75}.syllabus-list{display:grid;gap:24px}.syllabus-career{border:1px solid rgba(120,180,255,.16);background:linear-gradient(145deg,rgba(7,19,34,.96),rgba(11,27,47,.88));border-radius:26px;padding:24px;box-shadow:0 18px 60px rgba(0,0,0,.22)}.syllabus-head h2{margin:10px 0 6px;font-size:1.65rem}.syllabus-head p{color:var(--muted)}.update-box{margin-top:14px;padding:14px 16px;border-radius:14px;background:rgba(255,181,71,.1);border:1px solid rgba(255,181,71,.25);color:#f4d8a3;line-height:1.55}.syllabus-subjects{display:grid;gap:10px;margin-top:20px}.syllabus-subject{border:1px solid rgba(120,180,255,.13);border-radius:15px;background:rgba(6,17,31,.62);overflow:hidden}.syllabus-subject summary{cursor:pointer;list-style:none;padding:15px 16px;display:flex;align-items:center;gap:10px}.syllabus-subject summary::-webkit-details-marker{display:none}.syllabus-subject summary span{color:#63d6a7}.syllabus-subject summary small{margin-left:auto;color:var(--muted)}.syllabus-subject ul{margin:0;padding:0 20px 18px 45px;color:var(--muted);line-height:1.75}.syllabus-subject li::marker{color:#63d6a7}.source-note span{color:var(--muted)}@media(max-width:700px){.syllabus-career{padding:17px}.syllabus-subject summary{align-items:flex-start}.syllabus-subject summary small{white-space:nowrap}.personal-hero{min-height:auto}}
+
+
+.full-theory p,.example-block p{font-size:15px;line-height:1.8;color:#2d3b50}.full-theory p+p{margin-top:14px}.lesson-modal .modal-body{max-width:880px}.lesson-modal .study-block{padding:20px 22px}.lesson-modal .study-block h4{font-size:15px}.lesson-modal .reading-box p,.lesson-modal .activity-box li{line-height:1.72}.lesson-modal h3{font-size:30px;line-height:1.15}.lesson-lead{font-size:16px!important;line-height:1.7!important}
+
+/* ===== V7 — TEMA AMARELO / DOURADO, SEM PAINEL SOBRE A FOTO ===== */
+:root{
+  --bg:#fff6cf;--surface:#fffdf2;--surface-2:#fff7d8;
+  --ink:#4a3200;--text:#624800;--muted:#8b7131;--line:#ecd68c;
+  --nav:#fff0ad;--nav-2:#ffe58b;--blue:#c88a00;--blue-2:#e0a900;
+  --cyan:#d89a00;--green:#c89400;--amber:#e0a000;--gold:#c88a00;
+  --shadow:0 18px 45px rgba(142,96,0,.12);--shadow-lg:0 28px 70px rgba(142,96,0,.16)
+}
+html{background:#fff6cf}
+body{
+  background:
+    radial-gradient(circle at 85% 0,rgba(255,215,82,.38),transparent 28%),
+    radial-gradient(circle at 4% 48%,rgba(247,191,35,.20),transparent 24%),
+    linear-gradient(180deg,#fff8d8 0%,#fff1ae 100%)!important;
+  color:var(--text)!important
+}
+.ambient-one{background:#ffd34f!important;opacity:.30!important}.ambient-two{background:#efb51f!important;opacity:.20!important}
+.topbar{background:rgba(255,250,226,.94)!important;border-bottom:1px solid #e8ca68!important;box-shadow:0 10px 30px rgba(140,93,0,.09)!important}
+.menu-btn{background:#fff8d5!important;border-color:#e6c35c!important}.menu-btn span{background:#8b6300!important}
+.brand-mark{background:linear-gradient(145deg,#ffe07b,#d39a00 58%,#b77a00)!important;border:1px solid #d6a51d!important;box-shadow:0 10px 25px rgba(181,124,0,.25)!important}
+.brand-mark:before{background:linear-gradient(90deg,transparent,#fff7c7,transparent)!important;box-shadow:none!important}
+.brand-mark:after{border-color:rgba(112,73,0,.18)!important}.brand-mark span{color:#5a3a00!important;text-shadow:none!important}
+.brand-copy strong,.footer-brand strong{color:#4a3200!important}.brand-copy strong b,.footer-brand strong b{color:#8e6200!important}.brand-copy strong span,.footer-brand strong span{color:#d09100!important}.brand-copy small{color:#8a7135!important}
+.btn.top-favorite,.soft{background:#fff8d8!important;color:#735100!important;border:1px solid #e4c763!important}.btn.top-favorite:hover,.soft:hover{background:#ffefad!important;color:#4a3200!important}
+.btn.primary{background:linear-gradient(135deg,#ffd95d,#c88a00)!important;color:#3a2800!important;box-shadow:0 12px 28px rgba(179,120,0,.20)!important}.btn.primary:hover{background:linear-gradient(135deg,#ffe47f,#d79b00)!important}
+.sidebar{background:linear-gradient(180deg,#fff4c4,#ffe99b 60%,#ffdf75)!important;border:1px solid #e1bd48!important;box-shadow:0 24px 50px rgba(141,91,0,.12)!important;color:#5b4100!important}
+.sidebar-label,.sidebar-foot{color:#8e6b16!important}.nav-item{color:#725400!important}.nav-item:hover{color:#3e2a00!important;background:rgba(255,255,255,.45)!important}.nav-item.active{color:#3e2a00!important;background:linear-gradient(90deg,#ffd65a,#ffe99e)!important;box-shadow:inset 0 0 0 1px #d6a927!important}.nav-item.active:before{background:#b87b00!important;box-shadow:0 0 12px rgba(184,123,0,.35)!important}.nav-icon{background:rgba(255,255,255,.50)!important;color:#8c6500!important}.nav-item.active .nav-icon{background:#c88a00!important;color:#fff7d3!important;box-shadow:0 5px 12px rgba(160,104,0,.22)!important}
+.sidebar-card{border:1px solid #dfbd51!important;background:rgba(255,255,255,.42)!important}.progress-head strong{color:#4b3500!important}.progress-head small,.progress-link{color:#8a6a1d!important}.progress{background:#ead17b!important}.progress i{background:linear-gradient(90deg,#e8b31f,#a96f00)!important;box-shadow:none!important}.progress-link:hover{color:#4b3500!important}.status-dot,.live-pill i{background:#cf9900!important;box-shadow:0 0 0 4px rgba(207,153,0,.12)!important}
+.eyebrow,.eyebrow.light{color:#a87300!important}.eyebrow.light i{background:#c58a00!important}.page-head h1,.section-head h2,.career-card h3,.lesson-card h3,.mini-card h3,.question h4,.lesson-modal h2,.lesson-body h3,.quiz-toolbar strong,.notice strong,.empty strong{color:#4a3200!important}.page-head p,.section-head p,.career-card p,.lesson-card p,.mini-card p,.notice p{color:#80672a!important}.link-btn{color:#a26f00!important}.link-btn:hover{color:#6e4a00!important}
+
+/* FOTO DE FUNDO LIVRE: painel estatístico removido e overlay escuro eliminado */
+.hero{min-height:545px!important;grid-template-columns:minmax(0,1fr)!important;background-blend-mode:normal!important;background-position:center!important;background-size:cover!important;border:1px solid #d5ab2d!important;box-shadow:var(--shadow-lg)!important}
+.hero-copy{max-width:760px!important;padding:58px 58px 52px!important;background:linear-gradient(90deg,rgba(255,248,211,.92) 0%,rgba(255,245,195,.74) 60%,rgba(255,245,195,0) 100%)!important;border-radius:30px 0 0 30px!important}
+.hero:before{background:radial-gradient(circle,rgba(255,211,79,.14),transparent 66%)!important;border-color:rgba(195,139,0,.13)!important}
+.hero:after{display:none!important}
+.hero h1{color:#4a3200!important;text-shadow:0 1px 0 rgba(255,255,255,.7)!important}.hero h1 span{background:none!important;-webkit-background-clip:initial!important;background-clip:initial!important;color:#b27700!important;text-shadow:0 1px 0 rgba(255,255,255,.75)!important}.hero-copy>p{color:#5b450d!important}.hero-copy strong{color:#4a3200!important}.hero-primary{background:linear-gradient(135deg,#ffd65a,#c58a00)!important;color:#3c2900!important;box-shadow:0 14px 30px rgba(177,116,0,.20)!important}.hero-primary:hover{background:linear-gradient(135deg,#ffe27b,#d19700)!important}.hero-secondary{border:1px solid #c99a22!important;background:rgba(255,249,220,.83)!important;color:#5f4300!important}.hero-secondary:hover{background:#fff2b7!important}.hero-trust{color:#795e1d!important}.hero-trust b{background:#f4d56e!important;color:#6c4b00!important}.hero-trust span:first-child:after{color:#a87300!important}
+.hero-panel{display:none!important}
+
+.career-card,.lesson-card,.state-card,.mini-card,.card,.study-card{background:linear-gradient(145deg,#fffdf4,#fff3bd)!important;border-color:#e1c262!important;box-shadow:0 16px 36px rgba(144,94,0,.09)!important}.career-card:hover,.lesson-card:hover,.mini-card:hover{border-color:#c99716!important;box-shadow:0 20px 46px rgba(144,94,0,.14)!important}.career-icon{background:linear-gradient(145deg,#fff2b7,#ffd968)!important;border-color:#dcaf2d!important;box-shadow:none!important}.career-card:hover .career-icon{background:linear-gradient(145deg,#ffe89a,#ffcf47)!important;border-color:#bd8300!important}.card-kicker{color:#9a761b!important}.career-meta span{color:#775a16!important;background:#fff4c4!important;border-color:#e0bd4e!important}.btn.ghost{background:#fff3bc!important;color:#725000!important;border:1px solid #dfb83d!important}.btn.ghost:hover{background:linear-gradient(135deg,#ffd65c,#c78a00)!important;color:#3b2800!important;border-color:#bf8200!important}.favorite{background:#fff4c4!important;border-color:#e0bd4e!important;color:#98721a!important}.favorite:hover,.favorite.on{background:#ffe58d!important;color:#6e4a00!important;border-color:#c58a00!important}.tag{background:#fff2ba!important;color:#876515!important;border-color:#e1c15c!important}.tag.blue,.tag.green,.tag.amber{background:#ffeaa0!important;color:#755300!important;border-color:#d8ac2b!important}.state-card b{background:linear-gradient(145deg,#ffe88f,#dca100)!important;color:#513600!important}
+.searchbox input,.filters select{background:#fffdf0!important;border-color:#dfc367!important;color:#533b00!important}.filters select option{background:#fff8d7!important}.searchbox input::placeholder{color:#9b8245!important}
+.quiz-shell,.quiz-toolbar,.notice{background:linear-gradient(145deg,#fffdf4,#fff2b4)!important;border-color:#dfc164!important}.option{background:#fffdf1!important;border-color:#e3c971!important;color:#644b0d!important}.option:hover{background:#fff4c5!important;border-color:#cf9c1a!important}.option:has(input:checked){background:#ffe89a!important;border-color:#bb7d00!important}.answer-note,.result-box{background:#fff0aa!important;color:#604600!important;border-color:#d3a31f!important}.answer-note.error{background:#ffe7ae!important;color:#744d00!important;border-color:#d19a1a!important}.result-box{background:linear-gradient(135deg,#fff0a8,#ffdf77)!important;color:#604500!important;border-color:#cb9811!important}.notice-icon{background:#ffd965!important;color:#664600!important}.compact-table{background:#fff8d7!important}th{background:#ffeeb1!important;color:#755916!important}td{color:#6f5619!important;border-color:#e2c975!important}th,td{border-color:#e2c975!important}.empty{border-color:#dfc160!important;color:#846c31!important}
+dialog{background:#fff9dd!important;border:1px solid #d8b748!important}dialog::backdrop{background:rgba(120,84,0,.30)!important}.lesson-modal>header{background:#fff2b6!important;border-color:#ddbf5f!important}.icon-btn{background:#ffe9a1!important;border-color:#d3a62a!important;color:#6e4c00!important}.lesson-body{color:#614b16!important;background:#fffdf1!important}.lesson-quiz{background:#fff4c4!important;border-color:#ddbf5f!important}.callout{background:#fff0aa!important;color:#664b00!important;border-left-color:#bf8200!important}.callout.warning{border-color:#c28b00!important;background:#fff0aa!important}.topic-list{border-color:#dfc166!important;background:#fff7d0!important}.topic-list strong,.study-block h4{color:#4a3200!important}.topic-list ul,.study-block ul{color:#786123!important}.study-block{border-color:#dfc166!important;background:linear-gradient(145deg,#fff9dd,#ffedaa)!important}.review-box{background:#ffed9f!important;border-color:#d8a72a!important;color:#684e0b!important}.review-box strong{color:#6b4900!important}.source-note,.reading-box,.activity-box{background:#fff2b7!important;border-color:#d9b64a!important;color:#755d20!important}.source-note strong,.source-note a,.inline-source{color:#8a5d00!important}.reading-box p,.activity-box li,.theory-block p{color:#70581e!important}.full-theory p,.example-block p,.lesson-lead{color:#5a430d!important}
+.syllabus-career{border-color:#dfbd54!important;background:linear-gradient(145deg,#fffdf2,#fff0ad)!important;box-shadow:0 16px 40px rgba(142,94,0,.10)!important}.update-box{background:#ffe89a!important;border-color:#d5a01d!important;color:#684a00!important}.syllabus-subject{border-color:#dfc164!important;background:#fff8d2!important}.syllabus-subject summary span,.syllabus-subject li::marker{color:#9a6900!important}.syllabus-subject summary small,.syllabus-subject ul,.source-note span{color:#785f22!important}.library-summary span{border-color:#ddbb50!important;background:#fff3bc!important;color:#7e641f!important}.library-summary b{color:#4a3200!important}
+footer{background:#ffe99d!important;border-color:#d9b449!important}.footer-inner,.footer-brand small{color:#775b18!important}
+
+@media(max-width:1180px){.hero{background-position:center!important}.hero-panel{display:none!important}}
+@media(max-width:860px){.hero{background-position:center!important}.hero-copy{max-width:100%!important;background:linear-gradient(180deg,rgba(255,249,220,.90),rgba(255,241,180,.68))!important;border-radius:23px!important}.hero:after{display:none!important}}
+@media(max-width:590px){.hero{background-position:center!important}.hero-copy{padding:34px 22px 25px!important;background:linear-gradient(180deg,rgba(255,249,220,.92),rgba(255,241,180,.72))!important}}
+
+
+
+
+/* acabamento: elimina os últimos acentos azul/escuro */
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline-color:rgba(185,126,0,.30)!important}
+.progress-symbol{background:#ffe58c!important;color:#725000!important}.clean-list i{background:#ffe58c!important;color:#725000!important}
+.regional-callout{background:linear-gradient(135deg,#fff1b1,#ffe184)!important;border-color:#d7ae34!important}.regional-callout strong{color:#6d4a00!important}.regional-callout p{color:#775d1e!important}
+.badge,.pill{border-color:#d9b447!important}.update-notice{background:linear-gradient(145deg,#fffdf2,#ffedaa)!important}
+.form-card input,.form-card select,.form-card textarea{background:#fffdf0!important;border-color:#dfc367!important;color:#533b00!important}
+a{accent-color:#b77a00}.question input{accent-color:#b77a00!important}
+::-webkit-scrollbar-thumb{background:#d3a52a!important}::-webkit-scrollbar-track{background:#fff1b0!important}
+
+
+/* ===== V8 GITHUB — TEMA DOURADO FINAL ===== */
+:root{
+  --bg:#fff4b8!important;--surface:#fffbed!important;--surface-2:#fff0a6!important;
+  --ink:#513700!important;--text:#6b500e!important;--muted:#8b6c24!important;--line:#dfbc4c!important;
+  --nav:#ffe894!important;--nav-2:#ffd65a!important;--blue:#b77a00!important;--blue-2:#d59b0a!important;
+  --cyan:#d8a214!important;--green:#bd8700!important;--amber:#d69a00!important;
+}
+html,body{background:#fff4b8!important}
+.ambient-one{background:#ffd451!important}.ambient-two{background:#ffe894!important}
+.topbar{background:rgba(255,248,211,.96)!important;border-bottom-color:#dfbc4c!important}
+.layout{background:transparent!important}
+.sidebar{background:linear-gradient(180deg,#fff5c6,#ffe894 62%,#ffd75d)!important;color:#5b4100!important}
+.main,.view{background:transparent!important}
+.hero{background-image:linear-gradient(90deg,rgba(255,246,194,.66) 0%,rgba(255,240,161,.34) 38%,rgba(255,226,102,.06) 67%,rgba(255,226,102,0) 100%),url('assets/hero-graduacao.png')!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important}
+.hero-copy{background:transparent!important}
+.hero-panel{display:none!important}
+.card,.career-card,.lesson-card,.state-card,.mini-card,.study-card,.quiz-shell,.notice,.syllabus-career,.syllabus-subject{background-color:#fff8cf!important}
+dialog,.lesson-body,.lesson-quiz{background-color:#fff8d6!important}
+footer{background:#ffe895!important}
+/* texto usa marrom para manter contraste; fundos e elementos visuais ficam amarelo/dourado */
