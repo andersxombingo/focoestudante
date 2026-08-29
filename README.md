@@ -1,14 +1,24 @@
-# Foco Estudante V5 — Brasília e Entorno
+# Foco Estudante V5 — DF + GO
 
-Versão pública/aluno com foco regional, visual reorganizado e tema premium em amarelo.
+Versão pessoal e enxuta.
 
-- fundo amarelo e interface reorganizada
-- 15 trilhas de carreira
-- 116 aulas com teoria estruturada, tópicos essenciais, revisão e orientação de prova
-- 259 questões comentadas no banco
-- 12 simulados funcionais
-- 13 regiões/municípios prioritários
-- fontes oficiais para LODF, LC 840, RIDE, PMDF, CBMDF, PCDF, CTB, LDB, SUS, TJDFT e MPDFT
+## Trilhas ativas
+- PRF — Administrativo (base: Edital 01/2014, com atualização legislativa sinalizada)
+- PCDF — Agente (base: Edital 1/2020)
+- PCGO — Agente / Escrivão (base: Edital 006/2022)
 
-## Observação importante
-O conteúdo é uma base ampla de preparação para DF e Entorno. Editais mudam; antes de uma prova, compare a trilha com o conteúdo programático do edital e confira a redação atual das leis nas fontes oficiais listadas dentro da plataforma.
+## O que ficou
+- 179 aulas em texto com leitura orientada/lei seca
+- atividade de fixação em cada aula
+- questionário comentado em cada aula
+- 537 questões no banco
+- simulados por trilha
+- checklist completo do conteúdo programático
+- fontes oficiais
+- progresso e favoritos salvos no navegador
+
+## O que foi removido
+Premium, assinatura, outras carreiras, PMDF, CBMDF, SEEDF, SESDF, TJDFT, carreiras municipais do Entorno e seções que não ajudam no foco atual.
+
+## Aviso de atualização
+Editais antigos foram usados como matriz. A legislação marcada como revogada/alterada não deve ser estudada como vigente. Quando sair novo edital, compare os itens e ajuste a trilha.
