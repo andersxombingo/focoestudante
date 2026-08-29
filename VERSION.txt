@@ -1,3 +1,2 @@
-Foco Estudante V13.1 — GitHub Autônomo
-CSS, dados e JavaScript incorporados ao index.html
-29/08/2026
+Foco Estudante V14 — Oficina de Redação Cebraspe + Quadrix
+Gerado em 29/08/2026

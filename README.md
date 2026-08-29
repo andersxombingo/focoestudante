@@ -1,12 +1,17 @@
-# Foco Estudante V13.1 — GitHub Autônomo
+# Foco Estudante V14 — Redação completa
 
-Correção para o caso em que GitHub Pages carregou apenas o HTML e deixou CSS/JS sem carregar.
+Projeto estático para GitHub Pages.
 
-## Segurança desta versão
-- `index.html` contém CSS, `data.js` e `app.js` incorporados.
-- A imagem principal também está incorporada no CSS do próprio HTML.
-- Os arquivos separados continuam no projeto como cópia-fonte.
-- Mesmo que `styles.css`, `data.js`, `app.js` ou `assets/` não sejam encontrados, o `index.html` continua funcional.
+## Novo na V14
+- Aba **Redação** com conceito de texto dissertativo-argumentativo.
+- Método de planejamento em 5 minutos e esqueleto de redação.
+- Perfis de cobrança Cebraspe e Quadrix com fontes oficiais.
+- 16 temas autorais de treino (8 por perfil de banca).
+- Planejador de tese, dois argumentos e conclusão.
+- Editor com contador de palavras, linhas estimadas, parágrafos e cronômetro.
+- Correção automática orientativa: aderência ao comando, estrutura, argumentação, coesão, linguagem e conclusão.
+- Lista de erros detectados com instruções de correção e plano de reescrita.
+- Rascunhos e histórico salvos no navegador.
+- `index.html` autônomo: CSS, dados, JavaScript e imagem principal incorporados, além dos arquivos separados no projeto.
 
-## GitHub
-Substitua todos os arquivos pela versão deste ZIP. O arquivo principal é `index.html`.
+> A correção automática é heurística para treino e não substitui correção humana nem replica fórmula oficial de uma banca.
