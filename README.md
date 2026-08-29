@@ -1,4 +1,4 @@
-# Foco Estudante V12 — Profissional
+# Foco Estudante V12.1 — Profissional
 
 Versão reconstruída para uso pessoal e GitHub Pages.
 
@@ -14,3 +14,8 @@ Versão reconstruída para uso pessoal e GitHub Pages.
 
 ## Publicação
 Envie **todos os arquivos** deste projeto ao repositório GitHub. O projeto é estático e compatível com GitHub Pages.
+
+## Hotfix V12.1
+- Corrigido grid das alternativas: rádio + letra + texto agora ocupam três colunas corretas.
+- Eliminado o problema de texto quebrando palavra por palavra no celular.
+- Ajustados espaçamento e legibilidade das alternativas em telas pequenas.
