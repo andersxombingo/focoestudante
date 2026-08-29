@@ -1,15 +1,17 @@
-# Foco Estudante V10 — Modo Concurso Completo
+# Foco Estudante V11 — Prova Contextualizada
 
 Projeto completo para GitHub Pages.
 
-## O que mudou
-- 179 aulas mantidas e ampliadas com **Como dominar este assunto para a prova**.
-- 537 questões reconstruídas: removidos os dois modelos repetitivos por aula e substituídos por caso prático e análise de assertivas.
-- Posição do gabarito varia; não fica sempre na alternativa A.
-- Cada questão exige/permite escrever o **raciocínio e conceito** antes da correção.
-- Correção profunda: gabarito, seu raciocínio, conceito central, resposta-modelo, análise alternativa por alternativa, fundamento/base e padrão da banca.
-- Novo **Caderno de Erros** salvo no navegador.
-- Simulados continuam seguindo o peso da última prova de PRF Administrativo, PCDF e PCGO.
-- Legislação sinalizada para 2026, inclusive Resolução PCDF 8/2025 e alterações da legislação de Goiás em 2026.
+## Correção principal da V11
+A versão anterior ainda tinha questões curtas demais para chamar de “espelho da prova”. A V11 altera isso:
 
-Envie todos os arquivos e a pasta `assets` ao repositório do GitHub.
+- Cada questão ganhou **texto associado, situação hipotética ou caso prático**.
+- PRF Administrativo/FUNCAB e PCGO/AOCP aparecem com **5 alternativas (A–E)** nos simulados.
+- PCDF/Cebraspe aparece em **Certo/Errado**, depois de contexto e comando próprio da banca.
+- Campo obrigatório de estudo: **justifique seu raciocínio antes de ver o gabarito**.
+- Correção profunda: conceito, alternativa por alternativa e **pegadinha da banca**.
+- Questões autorais: reproduzem forma, temas e lógica de cobrança, mas não copiam integralmente cadernos oficiais.
+- Referências e legislação continuam atualizadas até 2026.
+- Arquivos usam `?v=11` para evitar que o GitHub Pages/navegador mostre JavaScript ou CSS antigo em cache.
+
+Suba **todos os arquivos** e a pasta `assets` ao GitHub.
